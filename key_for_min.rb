@@ -21,8 +21,8 @@
 # end
 
 def key_for_min_value(name_hash)
-  current_key = 
-  current_value = ""
+  current_key = ""
+  current_value = 0
   if !name_hash.empty?
 	  name_hash.each do |key,value|
       if value < current_value
