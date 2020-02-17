@@ -33,4 +33,5 @@ def key_for_min_value(name_hash)
 	  current_key
 	else
 	  return nil
+  end
 end
