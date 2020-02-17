@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
         min_value = number
         min_index = current_index
       end
-      current_index+= min_index
+      current_index+= 1
     end
     name_hash.keys[min_index]
   else
