@@ -21,7 +21,7 @@
 # end
 
 def key_for_min_value(name_hash)
-  current_key = ""
+  current_key = 
   current_value = ""
   if !name_hash.empty?
 	  name_hash.each do |key,value|
