@@ -11,8 +11,9 @@ def key_for_min_value(name_hash)
         min_value = name_hashs[value]
         min_index = current_index
       end
-      current_index+=
+      current_index+= min_index
     end
+    name_hash.keys(min_index)
   else
     return nil
   end
