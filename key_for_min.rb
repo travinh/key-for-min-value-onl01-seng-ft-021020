@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   min_value = name_hash.value[0]
+  min_key = name_hash.key[0]
   min_index = 0
   current_index = 0
   if !name_hash.empty?
